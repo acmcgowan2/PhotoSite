@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body{
+  background-color: rgba(163, 167, 129, 0.692);
+}
+
+p{
+  font-family: 'Ubuntu', sans-serif;
+  /* font-weight: bold; */
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 2vw;
+
+  text-align: center;
+  border-bottom: 5px solid rgb(143, 134, 134);
+  padding-bottom: 20px;
+  
+  /* Width of two images */
+  /* 22.5 * 2 = 45 */
+  /* Width between two images (margin) */
+  /* 1.25 * 2 = 2.5 */
+  /* Width of the paragraph element (AKA Bottom Border)*/
+  /* 45 + 2 =47.5 */
+
+  width: 47.5%;
+  margin: auto;
+}
+
+img{
+  /* 22.5 * 4 = 90 */
+  width: 22.5%;
+/* 1.25 *2 *4 = 10 */
+  margin: 1.25%;
+  float: left;
+}
